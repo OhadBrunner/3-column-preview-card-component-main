@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  background-color: #F2F2F2;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+div.column {
+  display: inline-block;
+  width: 22%;
+  height: 520px;
+}
+
+div.column img {
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+div.column h1 {
+  font-family: 'Oswald', sans-serif;
+  margin-left: 10%;
+  font-weight: bolder;
+}
+
+div.column p {
+  font-weight: lighter;
+  margin-left: 10%;
+  font-family: 'Manrope', sans-serif;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+
+div.column button {
+  background-color: #F2F2F2;
+  border-radius: 25px;
+  padding: 13px 45px;
+  font-size: 1rem;
+  font-family: 'Manrope', sans-serif;
+  font-weight: bolder;
+  margin-left: 10%;
+  border: none;
+  margin-top: 110px;
+}
+
+div.column button.btn-1 {
+  color: #E28625;
+}
+
+div.column button.btn-2 {
+  color: #006971;
+}
+
+div.column button.btn-3 {
+  color: #004140;
+}
+
+/* Box 1 */
+div.box-1 {
+  background-color: #E28625;
+}
+
+/* Box 2 */
+div.box-2 {
+  background-color: #006971;
+}
+
+/* Box 3 */
+div.box-3 {
+  background-color: #004140;
+}
+
+/* Hover & Active */
+div.column button:hover, div.column button:active {
+  background-color: inherit;
+  border: 2px solid #fff;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Hover & Active */
+div.column button:hover, div.column button:active {
+  background-color: inherit;
+  border: 2px solid #fff;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Moblie State */
+@media only screen and (max-width: 960px) {
+
+  body {
+    background-color: #F2F2F2;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  div.column {
+    width: 70%;
+    height: 450px;
+  }
+
+  div.column img {
+    margin-left: 10%;
+    margin-top: 30px;
+  }
+
+  div.column h1 {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10%;
+    font-weight: bolder;
+  }
+
+  div.column p {
+    font-weight: lighter;
+    margin-left: 10%;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 40px;
+    margin-right: 90px;
+  }
+
+  div.column button {
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding: 13px 45px;
+    font-size: 1rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+    margin-left: 10%;
+    border: none;
+    margin-top: 50px;
+  }
+
+  div.column button.btn-1 {
+    color: #E28625;
+  }
+
+  div.column button.btn-2 {
+    color: #006971;
+  }
+
+  div.column button.btn-3 {
+    color: #004140;
+  }
+
+  /* Box 1 */
+  div.box-1 {
+    background-color: #E28625;
+  }
+
+  /* Box 2 */
+  div.box-2 {
+    background-color: #006971;
+  }
+
+  /* Box 3 */
+  div.box-3 {
+    background-color: #004140;
+  }
+}
